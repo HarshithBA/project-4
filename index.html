@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      label,
+      input {
+        display: block;
+        width: 50%;
+        margin-bottom: 10px;
+      }
+      body {
+        margin: 20px;
+        background-color: azure;
+      }
+      button {
+        display: block;
+        padding: 8px;
+      }
+    </style>
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <h1>Count the Characters!</h1>
+    <p>
+      <i
+        >Enter a word in the input box and click the "count Letters". The
+        character count will be displayed in the console!</i
+      >
+      <br />
+      <i
+        >If the character count is greater than 7, you will get a message in the
+        console!</i
+      >
+    </p>
+    <form>
+      <label>Enter a Word: </label>
+      <input id="word" type="text" />
+      <button type="button" onclick="check()">Count Letters</button>
+    </form>
+  </body>
+</html>
